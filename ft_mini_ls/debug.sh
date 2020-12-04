@@ -9,6 +9,7 @@ exec 2> >(tee -a $LOG_ERR)
 echo $(date +"%Y-%m-%d %H:%M:%S") 2>&1
 echo $(date +"%Y-%m-%d %H:%M:%S") 1>&2
 
+sleep 2
 mkdir test
 sleep 2
 touch temp1
