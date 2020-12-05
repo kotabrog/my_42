@@ -9,6 +9,9 @@ exec 2> >(tee -a $LOG_ERR)
 echo $(date +"%Y-%m-%d %H:%M:%S") 2>&1
 echo $(date +"%Y-%m-%d %H:%M:%S") 1>&2
 
+echo "used function"-----------------
+nm -u ft_mini_ls
+
 sleep 2
 mkdir test
 sleep 2
