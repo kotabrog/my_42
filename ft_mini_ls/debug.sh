@@ -12,40 +12,58 @@ echo $(date +"%Y-%m-%d %H:%M:%S") 1>&2
 echo "used function"-----------------
 nm -u ft_mini_ls
 
+echo "check normal"------------------
 sleep 2
-mkdir test
+mkdir one_dir
 sleep 2
-touch temp1
+mkdir tow_dir
 sleep 2
-ln -s test link
+touch three_file
+sleep 2
+touch four_file
+echo "ls -1tr"------------------------
+ls -1tr | cat -e
+echo "ft_mini_ls"---------------------
+./ft_mini_ls | cat -e
+rm -rf one_dir tow_dir three_file four_file
+sleep 1
+
+echo "check symbolic and change timestanp"-----------
+sleep 2
+mkdir test5
+sleep 2
+mkdir test1
 sleep 2
 touch temp2
 sleep 2
-echo "ls -1tr"------------------------
+ln -s test1 link3
 sleep 2
+touch temp4
+sleep 2
+touch -m test5
+echo "ls -1tr"------------------------
 ls -1tr | cat -e
 echo "ft_mini_ls"---------------------
-sleep 2
 ./ft_mini_ls | cat -e
-rm -rf test temp1 temp2 link
+rm -rf test1 test5 temp2 temp4 link3
 sleep 1
 
 echo "ls -1tr spead"------------------
-mkdir test
-touch temp1
-ln -s test link
+mkdir test1
 touch temp2
+ln -s test link3
+touch temp4
 ls -1tr | cat -e
-rm -rf test temp1 temp2 link
+rm -rf test1 temp2 temp4 link3
 sleep 1
 
 echo "ft_mini_ls spead"---------------
-mkdir test
-touch temp1
-ln -s test link
+mkdir test1
 touch temp2
+ln -s test link3
+touch temp4
 ./ft_mini_ls | cat -e
-rm -rf test temp1 temp2 link
+rm -rf test1 temp2 temp4 link3
 sleep 1
 
 echo "ls -1lr same time"-------------
