@@ -6,7 +6,7 @@
 /*   By: ksuzuki <ksuzuki@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/23 14:26:58 by ksuzuki           #+#    #+#             */
-/*   Updated: 2020/09/17 00:21:22 by ksuzuki          ###   ########.fr       */
+/*   Updated: 2020/12/06 14:58:26 by ksuzuki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 
 char	*ft_strchr(const char *s, int c)
 {
+	if (!s)
+		return (NULL);
 	while (*s && *s != c)
 		s++;
 	if (*s == c)

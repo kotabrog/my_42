@@ -6,35 +6,41 @@
 /*   By: ksuzuki <ksuzuki@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/17 19:12:17 by ksuzuki           #+#    #+#             */
-/*   Updated: 2020/09/21 11:20:14 by ksuzuki          ###   ########.fr       */
+/*   Updated: 2020/12/09 23:53:43 by ksuzuki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "minirt.h"
 
-double	vec_inner_product(t_vec a, t_vec b)
+double	vec_inner_product(t_vec *a, t_vec *b)
 {
-	return (a.x * b.x + a.y * b.y + a.z * b.z);
+	return (a->x * b->x + a->y * b->y + a->z * b->z);
 }
 
-t_vec	vec_outer_product(t_vec a, t_vec b)
+void	vec_outer_product(t_vec *v, t_vec *a, t_vec *b)
 {
-	return (vec_set(a.y * b.z - a.z * b.y,\
-					-1 * a.x * b.z + a.z * b.x,\
-					a.x * b.y - a.y * b.x));
+	v->x = a->y * b->z - a->z * b->y;
+	v->y = -1 * a->x * b->z + a->z * b->x;
+	v->z = a->x * b->y - a->y * b->x;
 }
 
-double	vec_squared_norm(t_vec a)
+double	vec_squared_norm(t_vec *a)
 {
-	return (a.x * a.x + a.y * a.y + a.z * a.z);
+	return (vec_inner_product(a, a));
 }
 
-double	vec_norm(t_vec a)
-{
-	return (sqrt(a.x * a.x + a.y * a.y + a.z * a.z));
-}
+// double	vec_norm(t_vec a)
+// {
+// 	return (sqrt(a.x * a.x + a.y * a.y + a.z * a.z));
+// }
 
-t_vec	vec_atob(t_vec a, t_vec b)
-{
-	return (vec_add(b, vec_product_scaler(a, -1)));
-}
+// t_vec	vec_norm_vec(t_vec a)
+// {
+// 	double n;
+
+// 	n = vec_norm(a);
+// 	if (n == 0)
+// 		return (a);
+// 	vec_product_scaler_inplace(&a, 1 / n);
+// 	return (a);
+// }
