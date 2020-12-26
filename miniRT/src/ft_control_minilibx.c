@@ -6,7 +6,7 @@
 /*   By: ksuzuki <ksuzuki@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/08 22:44:49 by ksuzuki           #+#    #+#             */
-/*   Updated: 2020/12/26 01:54:20 by ksuzuki          ###   ########.fr       */
+/*   Updated: 2020/12/26 18:36:05 by ksuzuki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,7 +73,7 @@ void	set_all_mlx_hook(t_vars *vars)
 {
 	mlx_key_hook(vars->win, control_key_code, vars);
 	mlx_hook(vars->win, MY_DESTROYNOTIFY, (1L << 17), \
-												exit_success, vars);
+												exit_destroy, vars);
 	mlx_hook(vars->win, MY_EXPOSE, (1L << 15), put_img_when_resized, \
 																vars);
 }

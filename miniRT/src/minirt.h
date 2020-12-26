@@ -6,7 +6,7 @@
 /*   By: ksuzuki <ksuzuki@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/25 12:28:09 by ksuzuki           #+#    #+#             */
-/*   Updated: 2020/12/26 01:45:14 by ksuzuki          ###   ########.fr       */
+/*   Updated: 2020/12/26 18:35:05 by ksuzuki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -257,5 +257,6 @@ int				choice_object(t_data *img, t_vec pont);
 int				calc_shadow(t_data *img);
 void			free_img_array(t_data *img_array, int n, void *mlx, int flag);
 void			free_objects(t_object *objects, int n);
+int				exit_destroy(t_vars *vars);
 
 #endif

@@ -6,7 +6,7 @@
 /*   By: ksuzuki <ksuzuki@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/20 11:07:31 by ksuzuki           #+#    #+#             */
-/*   Updated: 2020/12/26 01:37:00 by ksuzuki          ###   ########.fr       */
+/*   Updated: 2020/12/26 18:35:30 by ksuzuki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,6 +72,17 @@ void	write_error(int flag)
 	write(2, "Error\n", 6);
 	write(2, error[flag], ft_strlen(error[flag]));
 	write(2, "\n", 1);
+}
+
+int		exit_destroy(t_vars *vars)
+{
+	free(vars->img.camera);
+	free(vars->img.light);
+	free_objects(vars->img.objects, vars->img.n_object);
+	free_img_array(vars->img_array, vars->img.n_camera, vars->mlx, !FALSE);
+	mlx_destroy_display(vars->mlx);
+	free(vars->mlx);
+	exit(SUCCESS);
 }
 
 int		exit_success(t_vars *vars)
