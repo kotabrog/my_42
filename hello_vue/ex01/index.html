@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>My first Vue app</title>
+	<script src="https://unpkg.com/vue"></script>
+	</head>
+	<body>
+	<div id="app" v-if="seen">
+		{{ message }}
+	</div>
+
+	<script>
+		var app = new Vue({
+		el: "#app",
+		data: {
+			message: "Hello Vue!",
+			seen: false
+		}
+		});
+	</script>
+	</body>
+</html>

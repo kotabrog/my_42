@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>My first Vue app</title>
+	<script src="https://unpkg.com/vue"></script>
+	</head>
+	<body>
+	<div id="app">
+		<series-item
+		v-for="Netflix in NetflixList"
+		v-bind:series="Netflix"
+		></series-item>
+	</div>
+
+	<script>
+		Vue.component("series-item", {
+		props: ["series"],
+		template: "<h2>{{ series.text }}</h2>"
+		});
+		var app = new Vue({
+		el: "#app",
+		data: {
+			NetflixList: [
+			{ id: 0, text: "Queen's Gambit" },
+			{ id: 1, text: "Altered Carbon" },
+			{ id: 2, text: "Black Mirror" }
+			]
+		}
+		});
+	</script>
+	</body>
+</html>
