@@ -42,6 +42,12 @@ A function created in C that reads a file line by line.
 
 https://github.com/kotabrog/get_next_line
 
+## ft_printf
+
+It is a self-made printf made in C.
+
+https://github.com/kotabrog/printf
+
 ## ft_server
 
 I created a Docker file that can build an environment for nginx, mysql, and wordpress.
