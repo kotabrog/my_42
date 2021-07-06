@@ -17,6 +17,7 @@ I will introduce the program created in 42 tasks.
 - libasm (12/29 - 2021/1/9)
 - push_swap (4/29 - 5/9)
 - libunit (5/8 - 5/14)
+- minishell (5/19 - 7/3)
 - ...
 
 ## Piscine
@@ -92,6 +93,12 @@ https://github.com/kotabrog/push_swap
 This is a team assignment to create a C library to do unit testing (no readme).
 
 https://github.com/kotabrog/libunit_develop
+
+## minishell
+
+It's a small bash.
+
+https://github.com/kotabrog/minishell
 
 ## 42Tokyo
 
