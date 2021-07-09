@@ -18,6 +18,7 @@ I will introduce the program created in 42 tasks.
 - push_swap (4/29 - 5/9)
 - libunit (5/8 - 5/14)
 - minishell (5/19 - 7/3)
+- pipex (7/5 - 7/9)
 - ...
 
 ## Piscine
@@ -99,6 +100,12 @@ https://github.com/kotabrog/libunit_develop
 It's a small bash.
 
 https://github.com/kotabrog/minishell
+
+## pipex
+
+Reproduced the shell's pipe.
+
+https://github.com/kotabrog/pipex
 
 ## 42Tokyo
 
