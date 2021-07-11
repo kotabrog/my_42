@@ -19,6 +19,7 @@ I will introduce the program created in 42 tasks.
 - libunit (5/8 - 5/14)
 - minishell (5/19 - 7/3)
 - pipex (7/5 - 7/9)
+- fract-ol (7/9 - 7/11)
 - ...
 
 ## Piscine
@@ -106,6 +107,12 @@ https://github.com/kotabrog/minishell
 Reproduced the shell's pipe.
 
 https://github.com/kotabrog/pipex
+
+## fract-ol
+
+I made a program to draw fractal shapes in C language.
+
+https://github.com/kotabrog/fract-ol
 
 ## 42Tokyo
 
