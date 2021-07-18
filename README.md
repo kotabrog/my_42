@@ -20,6 +20,7 @@ I will introduce the program created in 42 tasks.
 - minishell (5/19 - 7/3)
 - pipex (7/5 - 7/9)
 - fract-ol (7/9 - 7/11)
+- philosophers (7/12 - 7/18)
 - ...
 
 ## Piscine
@@ -113,6 +114,12 @@ https://github.com/kotabrog/pipex
 I made a program to draw fractal shapes in C language.
 
 https://github.com/kotabrog/fract-ol
+
+## philosophers
+
+To practice the threading process, I had a philosopher over for dinner.
+
+https://github.com/kotabrog/philosophers
 
 ## 42Tokyo
 
