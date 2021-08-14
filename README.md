@@ -22,6 +22,7 @@ I will introduce the program created in 42 tasks.
 - fract-ol (7/9 - 7/11)
 - philosophers (7/12 - 7/18)
 - Net-Practice (7/25 - 7/26)
+- CPP-module (7/18 - 8/14)
 - ...
 
 ## Piscine
@@ -125,6 +126,12 @@ https://github.com/kotabrog/philosophers
 ## Net-Practice
 
 I learned about networking by setting up Ip addresses, etc. and connecting networks.
+
+## CPP-module
+
+This is a c++ assignment for 42.
+
+https://github.com/kotabrog/CPP-module
 
 ## 42Tokyo
 
