@@ -133,6 +133,12 @@ This is a c++ assignment for 42.
 
 https://github.com/kotabrog/CPP-module
 
+## webserv
+
+We created a nginx-like http server in c++.
+
+https://github.com/syamaguc/webserv
+
 ## 42Tokyo
 
 https://42tokyo.jp/
