@@ -27,6 +27,9 @@ I will introduce the program created in 42 tasks.
 - ft_containers (2/20 - 6/12)
 - inception (7/1 - 7/31)
 - ft_transcendence (8/1 - 9/24)
+- Second Circle (2023/1/21)
+- ft_linear_regression (1/21 - 1/24)
+- ...
 
 ## Piscine
 
@@ -159,6 +162,12 @@ https://github.com/kotabrog/inception
 We created a web application with chat and games.
 
 https://github.com/syamaguc/ft_transcendence
+
+## ft_linear_regression
+
+Linear regression, which I created myself as an assignment for 42
+
+https://github.com/kotabrog/ft_linear_regression
 
 ## 42Tokyo
 
