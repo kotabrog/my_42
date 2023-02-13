@@ -29,6 +29,7 @@ I will introduce the program created in 42 tasks.
 - ft_transcendence (8/1 - 9/24)
 - Second Circle (2023/1/21)
 - ft_linear_regression (1/21 - 1/24)
+- Computor_v1 (1/25 - 1/31)
 - ...
 
 ## Piscine
