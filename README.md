@@ -169,6 +169,12 @@ Linear regression, which I created myself as an assignment for 42
 
 https://github.com/kotabrog/ft_linear_regression
 
+## Computor_v1
+
+I have created a program that, given an algebraic equation in one variable, will tell you its order and, if it is less than or equal to the second order, its solution.
+
+https://github.com/kotabrog/Computor_v1
+
 ## 42Tokyo
 
 https://42tokyo.jp/
