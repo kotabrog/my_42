@@ -30,6 +30,7 @@ I will introduce the program created in 42 tasks.
 - Second Circle (2023/1/21)
 - ft_linear_regression (1/21 - 1/24)
 - Computor_v1 (1/25 - 1/31)
+- Computor_v2 (2/1 - 2/26)
 - ...
 
 ## Piscine
@@ -175,6 +176,12 @@ https://github.com/kotabrog/ft_linear_regression
 I have created a program that, given an algebraic equation in one variable, will tell you its order and, if it is less than or equal to the second order, its solution.
 
 https://github.com/kotabrog/Computor_v1
+
+## Computor_v2
+
+I created an interpreter that can perform various calculations in 42 assignments.
+
+https://github.com/kotabrog/Computor_v2
 
 ## 42Tokyo
 
