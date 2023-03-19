@@ -31,6 +31,8 @@ I will introduce the program created in 42 tasks.
 - ft_linear_regression (1/21 - 1/24)
 - Computor_v1 (1/25 - 1/31)
 - Computor_v2 (2/1 - 2/26)
+- dslr (2/28 - 3/15)
+- SCOP(2/25 - 3/19)
 - ...
 
 ## Piscine
@@ -182,6 +184,18 @@ https://github.com/kotabrog/Computor_v1
 I created an interpreter that can perform various calculations in 42 assignments.
 
 https://github.com/kotabrog/Computor_v2
+
+## dslr
+
+42 assignments to learn the fundamentals of data science.
+
+https://github.com/corvvs/kedavra
+
+## SCOP
+
+Program to display a 3d model using opengl and rust, created as a 42 assignment.
+
+https://github.com/kotabrog/SCOP
 
 ## 42Tokyo
 
