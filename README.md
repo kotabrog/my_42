@@ -32,7 +32,8 @@ I will introduce the program created in 42 tasks.
 - Computor_v1 (1/25 - 1/31)
 - Computor_v2 (2/1 - 2/26)
 - dslr (2/28 - 3/15)
-- SCOP(2/25 - 3/19)
+- SCOP (2/25 - 3/19)
+- N Puzzle (2023/2/6 - 3/16)
 - ...
 
 ## Piscine
@@ -196,6 +197,12 @@ https://github.com/corvvs/kedavra
 Program to display a 3d model using opengl and rust, created as a 42 assignment.
 
 https://github.com/kotabrog/SCOP
+
+## N Puzzle
+
+A program that solves N puzzles, which are sliding puzzles in which numbered tiles are arranged in a specific pattern.
+
+https://github.com/Shigurex/n-puzzle
 
 ## 42Tokyo
 
